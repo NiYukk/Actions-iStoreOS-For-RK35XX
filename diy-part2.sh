@@ -72,9 +72,9 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/
 
 
 
-# svn export --force https://github.com/project-lede/openwrt-app/branches/luci18/luci-app-godproxy package/luci-app-godproxy
+# svn export --force https://github.com/erdoukki/openwrt-app/branches/luci18/luci-app-godproxy package/luci-app-godproxy
 
-svn export --force https://github.com/project-lede/openwrt-app/trunk/luci-app-godproxy package/luci-app-godproxy
+svn export --force https://github.com/erdoukki/openwrt-app/trunk/luci-app-godproxy package/luci-app-godproxy
 
 
 
