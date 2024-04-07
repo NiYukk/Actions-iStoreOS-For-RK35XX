@@ -72,12 +72,3 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/
 
 
 
-# 加入OpenClash核心
-chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
-if [ "$1" = "rk33xx" ]; then
-    $GITHUB_WORKSPACE/preset-clash-core.sh arm64
-elif [ "$1" = "rk35xx" ]; then
-    $GITHUB_WORKSPACE/preset-clash-core.sh arm64
-elif [ "$1" = "x86" ]; then
-    $GITHUB_WORKSPACE/preset-clash-core.sh amd64
-fi
