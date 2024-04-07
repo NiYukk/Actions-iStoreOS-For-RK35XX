@@ -72,10 +72,6 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/
 
 
 
-svn export https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
-svn export https://github.com/linkease/istore/trunk/luci package/luci-app-store
-
-
 # 加入OpenClash核心
 chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
 if [ "$1" = "rk33xx" ]; then
