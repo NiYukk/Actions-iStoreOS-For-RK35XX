@@ -71,13 +71,13 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se-core.dtsi target/linux/roc
 cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/dts/rk3568/rk3568-firefly-roc-pc-se.dts
 
 # adguardhome
-svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
-svn export https://github.com/kenzok8/openwrt-packages/trunk/adguardhome package/adguardhome
+svn export https://github.com/kenzok8/openwrt-packages/luci-app-adguardhome package/luci-app-adguardhome
+svn export https://github.com/kenzok8/openwrt-packages/adguardhome package/adguardhome
 # svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 # svn export https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
 
 # openclash
-svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-openclash  package/luci-app-openclash
+svn export https://github.com/kenzok8/openwrt-packages/luci-app-openclash  package/luci-app-openclash
 # svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-openclash  package/luci-app-openclash
 # 加入OpenClash核心
 chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
