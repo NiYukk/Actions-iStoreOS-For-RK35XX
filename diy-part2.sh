@@ -71,8 +71,11 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se-core.dtsi target/linux/roc
 cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/dts/rk3568/rk3568-firefly-roc-pc-se.dts
 
 
-svn co https://github.com/project-openwrt/openwrt/branches/master/package/ctcgfw/rtl8812au-ac
-svn co https://github.com/project-openwrt/openwrt/branches/master/package/ctcgfw/rtl8821cu
+
+# svn export --force https://github.com/project-lede/openwrt-app/branches/luci18/luci-app-godproxy package/luci-app-godproxy
+
+svn export --force https://github.com/project-lede/openwrt-app/trunk/luci-app-godproxy package/luci-app-godproxy
+
 
 
 # 加入OpenClash核心
