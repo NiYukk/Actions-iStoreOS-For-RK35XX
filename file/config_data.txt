@@ -15,3 +15,11 @@ CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_yyy_h1=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_jp_tvbox=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_panther_x2=y
 CONFIG_TARGET_DEVICE_rockchip_rk35xx_DEVICE_dg_nas=y
+
+# adguardhome
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
+
+# openclash
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-i18n-openclash-zh-cn=y
