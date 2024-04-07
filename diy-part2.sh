@@ -71,6 +71,9 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se-core.dtsi target/linux/roc
 cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/dts/rk3568/rk3568-firefly-roc-pc-se.dts
 
 
+svn co https://github.com/project-openwrt/openwrt/branches/master/package/ctcgfw/rtl8812au-ac
+svn co https://github.com/project-openwrt/openwrt/branches/master/package/ctcgfw/rtl8821cu
+
 
 # 加入OpenClash核心
 chmod -R a+x $GITHUB_WORKSPACE/preset-clash-core.sh
