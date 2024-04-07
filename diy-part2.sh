@@ -72,10 +72,9 @@ cp -f $GITHUB_WORKSPACE/file/rk3568-firefly-roc-pc-se.dts target/linux/rockchip/
 
 
 
-# svn export --force https://github.com/erdoukki/openwrt-app/branches/luci18/luci-app-godproxy package/luci-app-godproxy
-
-svn export --force https://github.com/erdoukki/openwrt-app/trunk/luci-app-godproxy package/luci-app-godproxy
-
+svn co https://github.com/rufengsuixing/trunk/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
 
 
 # 加入OpenClash核心
