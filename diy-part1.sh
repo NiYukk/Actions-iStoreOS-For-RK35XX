@@ -12,3 +12,5 @@ date_version=$(date +"%Y%m%d%H")
 # sed -i "s/0000000000/${date_version}/g" version
 
 echo $date_version > version
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
